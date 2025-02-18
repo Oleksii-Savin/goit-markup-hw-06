@@ -1,2 +1,2 @@
 # goit-markup-hw-06
-adaptive design
+https://oleksii-savin.github.io/goit-markup-hw-06/
