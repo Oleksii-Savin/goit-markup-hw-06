@@ -1232,7 +1232,7 @@ button {
   /* footer */
   .container-footer {
     padding-left: 108px;
-    gap: 76px 24px;
+    gap: 0 24px;
     flex-direction: row;
   }
   .footer-list {
@@ -1331,6 +1331,7 @@ button {
   }
   .footer-icon {
     margin-right: 80px;
+    margin-bottom: 0;
   }
   .form-button {
     padding: 8px 16px;
