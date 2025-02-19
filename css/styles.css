@@ -863,6 +863,9 @@ button {
 
 .mobmenu {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
   top: 0;
   left: 0;
   width: 100%;
@@ -933,11 +936,13 @@ button {
   bottom: 0;
   width: 100%;
 }
+.mobmenu-address {
+  margin-bottom: 48px;
+}
 .address-mobmenu-list {
   display: flex;
   flex-direction: column;
   gap: 22px 0;
-  padding-bottom: 46px;
 }
 .address-mobmenu-link {
   font-weight: 500;
@@ -1120,6 +1125,9 @@ button {
   .header-burger {
     display: none;
   }
+  .mobmenu {
+    display: none;
+  }
   .hero {
     max-width: 768px;
     margin: 0 auto;
@@ -1242,6 +1250,7 @@ button {
     margin-bottom: 0;
   }
 }
+
 /* desktop */
 @media screen and (min-width: 1158px) {
   .hero {
@@ -1259,8 +1268,6 @@ button {
     background-position: center;
   }
   @media screen and(resolution: 2x) {
-    
-
     .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -1274,8 +1281,6 @@ button {
     padding-left: 15px;
     padding-right: 15px;
   }
-        .address-menu-list {
-    flex-direction: row;}
   /* services */
   .services-list {
     gap: 0;
@@ -1339,7 +1344,4 @@ button {
   .modal-comment {
     margin-bottom: 0;
   }
-  /* .mobmenu {
-    display: none;
-  }
-} */
+}
