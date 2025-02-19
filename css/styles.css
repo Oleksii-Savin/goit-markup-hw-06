@@ -1281,6 +1281,10 @@ button {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .address-menu-list {
+    flex-direction: row;
+    gap: 40px;
+  }
   /* services */
   .services-list {
     gap: 0;
